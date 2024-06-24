@@ -60,7 +60,7 @@ body {
 
     </style>
   </head>
-  <body class="bg-secondary">
+  <body class="bg-dark">
   <div class="wrapper">
     <form class="form-signin" action="login_action.php" method="POST">       
       <h2 class="form-signin-heading">Please login</h2>
