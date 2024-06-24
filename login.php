@@ -1,3 +1,13 @@
+<?php
+include 'koneksi.php';
+session_start();
+
+if (isset($_SESSION ['username_admin'])){
+    header ("Location : index.php");
+}
+
+?>
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -62,13 +72,12 @@ body {
   </head>
   <body class="bg-secondary">
   <div class="wrapper">
-    <form class="form-signin">       
+    <form class="form-signin" action="login_action.php" method="POST">       
       <h2 class="form-signin-heading">Please login</h2>
-      <input type="text" class="form-control" name="username" placeholder="Email Address" required="" autofocus="" />
-      <input type="password" class="form-control" name="password" placeholder="Password" required=""/>  
-      <!-- button login -->
-      <a class="btn btn-primary mt-5" href="regis.php" role="button">Kembali</a> 
-	  <a class="btn btn-primary mt-5" href="index.php" role="button">login</a> 
+      <input type="text" class="form-control" name="username_admin" placeholder="Username" required="" autofocus="" />
+      <input type="password" class="form-control" name="password_admin" placeholder="Password" required=""/>  
+      <a class="btn btn-primary mt-5" href="index.php" role="button">Kembali</a> 
+	  <button class="btn btn-primary mt-5" type="submit" name="login">Login</button>
     </form>
   </div>
   </body>
