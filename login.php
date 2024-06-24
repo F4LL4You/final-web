@@ -1,13 +1,3 @@
-<?php
-include 'koneksi.php';
-session_start();
-
-if (isset($_SESSION ['username_admin'])){
-    header ("Location : index.php");
-}
-
-?>
-
 <!doctype html>
 <html lang="en">
   <head>

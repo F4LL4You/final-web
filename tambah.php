@@ -12,26 +12,22 @@
         <h1>Buat Pesanan!</h1>
        
         <div class="container mt-5">
-        <h2>Tambah Baju</h2>
-        <form action=""koneksi.php method="POST"> 
+        <h2>Tambah Barang</h2>
+        <form action="login_action.php" method="POST"> 
             <div class="form-group">
-                <label for="namaBarang">Form Tambah Baju</label>
-                <input type="text" class="form-control" name="merek_baju" placeholder="Masukkan Nama Barang">
+                <label for="Merek_baju">Merek Baju</label>
+                <input type="text" class="form-control" name="merek_baju" placeholder="Masukkan Merek Baju">
             </div>
             <div class="form-group">
-                <label for="jenisBarang">Jenis Barang</label>
-                <input type="text" class="form-control" name="jenis_baju" placeholder="Masukkan Jenis Barang">
+                <label for="Jenis_baju">Jenis Baju</label>
+                <input type="text" class="form-control" name="jenis_baju" placeholder="Masukkan Jenis Baju">
             </div>
             <div class="form-group">
-                <label for="jumlahBarang">Jumlah Barang</label>
-                <input type="number" class="form-control" name="ukuran_baju" placeholder="Masukkan Jumlah Barang">
-            </div>
-            <div class="form-group">
-                <label for="keterangan">Keterangan</label>
-                <textarea class="form-control" id="keterangan" rows="3" placeholder="Masukkan Keterangan"></textarea>
+                <label for="Ukuran_baju">Ukuran Baju</label>
+                <input type="text" class="form-control" name="ukuran_baju" placeholder="Masukkan Ukuran Baju">
             </div>
             <a class="btn btn-warning mt-5" href="index.php" role="button">Kembali</a>
-            <a class="btn btn-primary mt-5" href="index.php" role="button">Tambah pesanan</a>
+            <button class="btn btn-primary mt-5" type="submit" name="tambah">Tambah</button>
         </form>
     </div>
 </body>

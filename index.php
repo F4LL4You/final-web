@@ -28,7 +28,7 @@
         <div class="p-md-5 m-md-3 bg-body"></div>
         <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-body">
             <div class="p-lg-5 mx-auto my-auto">
-                <h1 class="display-3 fw-bold">Selamat Datang, <?php echo $_SESSION["username"];?></h1>
+                <h1 class="display-3 fw-bold">Selamat Datang</h1>
                 <h3 class="fw-normal text-muted mb-3">Selamat menjelajah di toko kami, semoga harimu menyenangkan!</h3>
             </div>
         </div>
