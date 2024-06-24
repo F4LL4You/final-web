@@ -1,16 +1,16 @@
 <?php
     include 'koneksi.php';
 
-    $Merek_baju = $_POST["merek_baju"];
-    $Jenis_baju = $_POST["jenis_baju"];
-    $Ukuran_baju = $_POST["ukuran_baju"];
+    $merekBaju = $_POST["merek_baju"];
+    $jenisBaju = $_POST["jenis_baju"];
+    $ukuranBaju = $_POST["ukuran_baju"];
     
-    $query = INSERT INTO `tb_baju` (`merek_baju`, `jenis_baju`, `ukuran_baju`) VALUES ('insurjennn', 'work shirt', 'L');
+    $query = "INSERT INTO tb_baju (merek_baju, jenis_baju, ukuran_baju) VALUES ('$merekBaju', '$jenisBaju', '$ukuranBaju');";
     $sql = mysqli_query($koneksi, $query);
       
 ?>
 
 <script>
-    alert("Berhasil Menambah Barang!");
+    alert("Berhasil Memesan!");
     window.location = "dashboard.php";
 </script>

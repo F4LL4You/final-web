@@ -26,7 +26,7 @@
                 $hasil = mysqli_query($koneksi, $query);
                 $no = 0;
                 while ($data = mysqli_fetch_array($hasil)) {
-                    $id_barang = $data['id_baju'];
+                    $id_baju = $data['id_baju'];
                     ?>
                     <tbody>
                     <tr>
@@ -36,7 +36,7 @@
                         <td><?php echo $data["ukuran_baju"]; ?></td>
                         <td>
                             <a href="edit.php?id_baju=<?php echo $id_baju;?>" class="btn btn-warning" role="button">Edit Barang</a>
-                            <a href="hapus.php?id_baju=<?php echo $id_baju;?>" class="btn btn-danger" role="button">Hapus Barang</a>
+                            <a href="hapus_action.php?id_baju=<?php echo $id_baju;?>" class="btn btn-danger" role="button">Hapus barang</a>
                         </td>
                     </tr>
                     </tbody>
