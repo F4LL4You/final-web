@@ -40,16 +40,16 @@
         <h2>Tambah Barang</h2>
         <form action="tambah_action.php" method="POST"> 
             <div class="form-group">
-                <label for="Merek_baju">Merek Baju</label>
-                <input type="text" class="form-control" name="merek_baju" placeholder="Masukkan Merek Baju">
+                <label for="Merek_baju">Merek Barang</label> 
+                <input type="text" class="form-control" name="merek_baju" placeholder="Masukkan Merek Barang">
             </div>
             <div class="form-group">
-                <label for="Jenis_baju">Jenis Baju</label>
-                <input type="text" class="form-control" name="jenis_baju" placeholder="Masukkan Jenis Baju">
+                <label for="Jenis_baju">Jenis Barang</label>
+                <input type="text" class="form-control" name="jenis_baju" placeholder="Masukkan Jenis Barang">
             </div>
             <div class="form-group">
-                <label for="Ukuran_baju">Ukuran Baju</label>
-                <input type="text" class="form-control" name="ukuran_baju" placeholder="Masukkan Ukuran Baju">
+                <label for="Ukuran_baju">Ukuran Barang</label>
+                <input type="text" class="form-control" name="ukuran_baju" placeholder="Masukkan Ukuran Barang">
             </div>
             <a class="btn btn-warning mt-5" href="dashboard.php" role="button">Kembali</a>
             <button class="btn btn-primary mt-5" type="submit" name="tambah">Tambah</button>

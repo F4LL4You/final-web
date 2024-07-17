@@ -12,9 +12,9 @@
             <thead>
                 <tr>
                 <th scope="col">ID</th>
-                <th scope="col">Merek Baju</th>
-                <th scope="col">Jenis Baju</th>
-                <th scope="col">Ukuran Baju</th>
+                <th scope="col">Merek Barang</th>
+                <th scope="col">Jenis Barang</th>
+                <th scope="col">Ukuran Barang</th>
                 <th scope="col">Pilihan</th>
                 </tr>
             </thead>

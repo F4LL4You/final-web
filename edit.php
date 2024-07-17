@@ -24,13 +24,13 @@
                 $id_baju = $data['id_baju'];
                 ?>
 
-            <p>ID Baju</p>
+            <p>ID Barang</p>
             <input type="text" name="id_baju" value="<?php echo $data['id_baju'];?>" disabled>
-            <p>Merek Baju</p>
+            <p>Merek Barang</p>
             <input type="text" placeholder="Masukan Merek Baju" name="merek_baju" value="<?php echo $data['merek_baju'];?>">
-            <p>Jenis Baju</p>
+            <p>Jenis Barang</p>
             <input type="text" placeholder="Masukan Jenis Baju" name="jenis_baju" value="<?php echo $data['jenis_baju'];?>">
-            <p>Ukuran Baju</p>
+            <p>Ukuran Barang</p>
             <input type="text" placeholder="Masukan Ukuran Baju" name="ukuran_baju" value="<?php echo $data['ukuran_baju'];?>">
             <button type="submit" name="edit_pesanan">Edit</button>
 
